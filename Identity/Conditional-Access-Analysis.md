@@ -33,7 +33,7 @@ The login triggered:
 1. Atypical travel
 2. Unfamiliar sign in properties
 3. Unmanaged device
-4. Non-Compliant device
+4. Non Compliant device
 
 Hence the sign in looked unusual comparted to the user's normal behaviour.
 
