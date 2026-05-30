@@ -15,7 +15,7 @@ Identify accounts generating high volumes of failed authenticaton attemps and de
 
 ## What Looked Suspicious
 
-This query identiified a user account that generated 60 failed authentication attempts from the same IP address.
+This query identiified a user account that generated 15 failed authentication attempts from the same IP address.
 
 A high number of failed sign ins is insusual due to legitimate users only generatre a small number of authentication failures can indicate password spraying, brute force activity, credential misuse, or a user repeatedly entering incorrect credentials.
 
