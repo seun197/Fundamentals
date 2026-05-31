@@ -6,6 +6,8 @@
 
 SystemSettings.exe is a normal Windows process used to display and manage Windows Settings.
 
+Coomand used: Get-Process
+
 ## One Service
 
 **WManSvc (Windows Management Service)**
@@ -13,6 +15,8 @@ SystemSettings.exe is a normal Windows process used to display and manage Window
 <img width="940" height="76" alt="image" src="https://github.com/user-attachments/assets/53a8d252-cd0e-439f-a118-b39c62ef17d4" />
 
 WManSvc is a Windows service that runs in the background to support system management tasks.
+
+Command Used: Get-Service
 
 ## Why Process Visibility Matters
 
