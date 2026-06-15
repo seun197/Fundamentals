@@ -82,4 +82,28 @@ Attackers abuse DNS through:
 
 ---
 
+## Key Lesson
+
+DNS does not verify the truth.
+
+The client trusts that the DNS server provides the correct IP address. If that trust relationsip is compromised for any reason, users will be redirected to malicious infrastructure without realising it.
+
+Understanding DNS is ultimately fundamntal to networking, security engineering, System engineering and Zero Trust artitectures.
+
+---
+
+## Screenshots
+
+DNS Query and Response
+
 <img width="1427" height="255" alt="image" src="https://github.com/user-attachments/assets/ac3eba89-e8ba-4291-a9de-369ea89eafad" />
+
+DNS Resolution
+
+<img width="422" height="95" alt="image" src="https://github.com/user-attachments/assets/3f2e7015-966d-4276-a182-785e549a6001" />
+
+Connectivity Test
+
+<img width="484" height="131" alt="image" src="https://github.com/user-attachments/assets/439dc26f-6570-4740-b079-9c61af293013" />
+
+
