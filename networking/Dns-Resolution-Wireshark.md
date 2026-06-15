@@ -61,6 +61,23 @@ DNS translated the domain name into an IP address.
 
 ---
 
+## Resolution Summary
+
+| Item                   | Value                           |
+| ---------------------- | ------------------------------- |
+| Domain Queried         | firefox.com                     |
+| Returned IP Address    | 35.190.14.201                   |
+| DNS Server             | 192.168.1.1                     |
+| Destination Port       | 443 (HTTPS)                     |
+| Connectivity Succeeded | Yes (`TcpTestSucceeded : True`) |
+
+## Trust Statement
+
+The client trusted the DNS server to provide the correct IP address for firefox.com and then used that IP address to establish communication over HTTPS.
+
+
+---
+
 ## Trust Relationship
 
 1. Client requested DNS record for firefox.com
