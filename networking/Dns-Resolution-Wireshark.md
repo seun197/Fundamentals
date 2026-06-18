@@ -125,6 +125,6 @@ DNS Resolution
 
 Connectivity Test
 
-<img width="484" height="131" alt="image" src="https://github.com/user-attachments/assets/439dc26f-6570-4740-b079-9c61af293013" />
+<img width="765" height="189" alt="image" src="https://github.com/user-attachments/assets/8dffa755-2a95-4ad7-8472-7ab3d9cb7b50" />
 
 
