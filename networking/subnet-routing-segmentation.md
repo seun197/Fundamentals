@@ -22,7 +22,8 @@ Test-NetConnection microsoft.com -Port 443
 
 ### ipconfig /all
 
-<img width="552" height="988" alt="image" src="https://github.com/user-attachments/assets/6f7b6db8-08b0-40af-a9f9-b673e4f25122" />
+<img width="1131" height="440" alt="image" src="https://github.com/user-attachments/assets/ef92d705-54c1-43b6-b352-7134f5705c16" />
+
 
 
 ### route print
