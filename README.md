@@ -1,26 +1,12 @@
-# Fundamentals
+# System Fundamentals
 
-A systems first  repository focused on understanding how communication, identity, trust and security controls work across enterprise environments.
+A systems first repository focused on understanding how communication, identity, trust and security work across enterprise environments.
 
-The goal is not to memorise products or vendor interfaces, but to understand the underlying systems that remain valuable regardless of technology, platform or cloud provider.
-
-Every lab is designed around engineering principles rather than product configuration.
+The objective is to understand the underlying systems rather than memorise products or vendor specific implementations.
 
 ---
 
-# Philosophy
-
-Technology changes.
-
-Systems do not.
-
-Products are implementations of networking, operating systems, identity, cryptography, distributed systems and trust.
-
-This repository focuses on understanding those systems.
-
----
-
-# What This Repository Covers
+## Areas Covered
 
 - Networking
 - Identity
@@ -28,13 +14,12 @@ This repository focuses on understanding those systems.
 - Windows
 - Linux
 - Cloud Security
-- SIEM
 - Web Security
 - PowerShell
 
 ---
 
-# Repository Goal
+## Repository Goals
 
 Build practical understanding of:
 
@@ -48,194 +33,40 @@ Build practical understanding of:
 
 ---
 
-# Core Areas
+## Repository Structure
 
-## Networking
-
-- DNS
-- TCP/IP
-- Routing
-- Subnetting
-- NAT
-- VLANs
-- Packet Flow
-- Firewalls
-- VPN
-
----
-
-## Identity
-
-- Authentication
-- Authorisation
-- MFA
-- Conditional Access
-- OAuth
-- OpenID Connect
-- SAML
-- JWT
-- RBAC
-- PIM
-- Active Directory
-- Kerberos
-
----
-
-## Detection Engineering
-
-- KQL
-- SIEM
-- Event Logs
-- Sysmon
-- Telemetry
-- Threat Hunting
-- Detection Logic
-- MITRE ATT&CK
-
----
-
-## Windows
-
-- Processes
-- Services
-- Event Viewer
-- PowerShell
-- Local Users
-- Permissions
-
----
-
-## Linux
-
-- Shell Navigation
-- SSH
-- Permissions
-- Processes
-- systemctl
-- Logs
-- grep
-- find
-- Networking Commands
-- Package Management
-- Bash
-
----
-
-## Cloud Security
-
-- Microsoft Sentinel
-- Microsoft Defender
-- Azure RBAC
-- Identity Security
-- Conditional Access
-
----
-
-## Web Security
-
-- HTTP
-- HTTPS
-- TLS
-- Cookies
-- Sessions
-- APIs
-
----
-
-# Repository Structure
-
-```
-cybersecurity-fundamentals/
+```text
+System fundamentals/
 │
 ├── networking/
+├── email security/
+├── web/
 ├── identity/
-├── detection-engineering/
 ├── windows/
 ├── linux/
-├── cloud-security/
-├── web-security/
-├── powershell/
 ├── trust/
+├── detection/
 ├── architecture/
 └── response/
 ```
 
 ---
 
-# Systems Thinking Framework
+## Systems Thinking Framework
 
-Every drill answers the same five engineering questions.
+Every lab answers the same questions:
 
-## 1. What system is operating?
-
-What components make up the system?
-
----
-
-## 2. How is trust established?
-
-What mechanism allows one component to trust another?
-
-Examples include:
-
-- DNS
-- Kerberos
-- Certificates
-- OAuth
-- TPM
-- Secure Boot
+1. What system is operating?
+2. How is trust established?
+3. What evidence is produced?
+4. How can the system fail or be abused?
+5. What engineering control reduces the risk?
 
 ---
 
-## 3. What evidence is produced?
+## Standard Lab Structure
 
-What logs, packets, events or artefacts prove what happened?
-
----
-
-## 4. How can the system fail or be abused?
-
-Examples include:
-
-- Misconfiguration
-- Spoofing
-- Privilege escalation
-- Session theft
-- Token abuse
-- Lateral movement
-
----
-
-## 5. What engineering control reduces the risk?
-
-Examples include:
-
-- Segmentation
-- Least Privilege
-- Conditional Access
-- Logging
-- MFA
-- PKI
-- Secure Boot
-- Monitoring
-
----
-
-# Engineering Principles
-
-Every lab focuses on:
-
-- Systems before products
-- Principles before tools
-- Evidence before assumptions
-- Understanding before memorisation
-- Engineering before administration
-
----
-
-# Example Lab Flow
-
-Every lab follows the same structure.
+Every lab follows the same format:
 
 1. Objective
 2. System Overview
@@ -246,34 +77,19 @@ Every lab follows the same structure.
 7. Failure Modes
 8. Attack Paths
 9. Defensive Controls
-10. Key Engineering Principles
+10. Engineering Principles
 
 ---
 
-# Long Term Objective
+## Long-Term Objective
 
-Develop vendor-agnostic capability across:
-
-- Networking
-- Windows
-- Linux
-- Cloud
-- Identity
-- PKI
-- Detection Engineering
-- Security Engineering
-- Infrastructure
-- Automation
-- Security Architecture
-
-while understanding the underlying systems that remain valuable regardless of vendor or technology.
+Develop vendor-agnostic capability across networking, operating systems, cloud, identity, infrastructure, PKI, detection engineering, automation and security architecture through practical, systems-based learning.
 
 ---
 
-# Guiding Principle
+## Guiding Principle
 
 > Master systems.
 >
 > Understand products.
->
-> Build engineering capability that remains valuable regardless of vendor, platform or technology.
+```
