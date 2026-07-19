@@ -64,7 +64,7 @@ Reject
 
 ## Lab
 
-```powershell
+## powershell
 
 Resolve-DnsName microsoft.com -Type MX
 
