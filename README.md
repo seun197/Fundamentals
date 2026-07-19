@@ -250,7 +250,7 @@ Every lab follows the same structure.
 
 ---
 
-# Long-Term Objective
+# Long Term Objective
 
 Develop vendor-agnostic capability across:
 
