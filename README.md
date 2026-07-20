@@ -83,7 +83,7 @@ Every lab follows the same format:
 
 ## Long Term Objective
 
-Develop vendor-agnostic capability across networking, operating systems, cloud, identity, infrastructure, PKI, detection engineering, automation and security architecture through practical, systems-based learning.
+Develop vendor agnostic capability across networking, operating systems, cloud, identity, infrastructure, PKI, detection engineering, automation and security architecture through practical, systems-based learning.
 
 ---
 
